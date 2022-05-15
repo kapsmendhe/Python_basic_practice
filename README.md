@@ -1,2 +1,6 @@
 # Python_basic_practice
-Practice Code
+Basic Python Practice Code
+1) Linear Search
+2) Binary Search
+3) Recursive Binary Search
+4) Two Sum (From list and return indices)
