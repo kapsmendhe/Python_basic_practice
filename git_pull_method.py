@@ -4,7 +4,7 @@ import git
 
 
 def read_json():
-    import pdb;pdb.set_trace()
+    # import pdb;pdb.set_trace()
     src_folder = "D:\\New_dev65\\modules\\zope_build\\src"
     repo_name = os.environ.get("REPO_NAME", "jivacore.sre")
     json_file = {}
@@ -17,7 +17,7 @@ def read_json():
 
 
 def pull_git_repos(repos, src_folder):
-    import pdb;pdb.set_trace()
+    # import pdb;pdb.set_trace()
     for repo in repos:
         g = git.Repo("{src_folder}/{repo}".format(src_folder=src_folder, repo=repo))
         g.remotes.origin.pull()
